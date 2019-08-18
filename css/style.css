@@ -72,7 +72,7 @@ Table of contents
 .bg-img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom left;
+  /* background-position: bottom left; */
   /* Set up positioning */
   /* position: fixed;
   bottom: 0;
