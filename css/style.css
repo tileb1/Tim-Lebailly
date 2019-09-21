@@ -1654,6 +1654,11 @@ ul.countdown li {
 /*# sourceMappingURL=style.css.map */
 
 
+/* 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+ZIG ZAG TIMELINE
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+*/
 .timeline {
   position: relative;
   padding:4px 0 0 0;
@@ -1872,42 +1877,66 @@ padding:0;
 .timeline > li:nth-child(even) {
   margin-bottom: 0px;
   min-height: 0px;
-  right: 0px;
+  left: 0px;
+  float:right;
+  display:block;
+  height:330px;
 }
 .timeline > li:nth-child(odd) {
   margin-bottom: 0px;
   min-height: 0px;
   left: 0px;
+  float:right;
+  display:block;
+  height:330px;
 }
+
 .timeline>li .timeline-image {
-  position: static;
   width: 150px;
   height: 150px;
   margin-bottom:0px;
-}
-.timeline>li:nth-child(even) .timeline-image {
-  left: 0;
+  left: 0px;
   margin-left: 0;
 }
-.timeline>li:nth-child(odd) .timeline-image {
+
+.timeline>li .timeline-panel {
+  position: static;
   float:right;
-  left: 0px;
-  margin-left:0;
+  width: 70%;
+  text-align:right;
 }
-.timeline > li:nth-child(even) .timeline-panel {
-  width: 100%;
-  padding: 0 0 20px 14px;
+
+.timeline>li .timeline-heading {
+  float:right;
+  text-align:right;
+  width:90%;
 }
-.timeline > li:nth-child(odd) .timeline-panel {
-  width: 100%;
-  padding: 0 14px 20px 0px;
+
+.timeline>li .subheading {
+  float:right;
+  text-align:right;
+}
+
+.timeline>li .timeline-body {
+  float:right;
+  text-align:right;
+}
+
+.timeline>li .text-muted {
+  float:right;
+  width:150%;
+  padding-top:75px;
 }
 .timeline > li .line {
   display: none;
 }
 }
 
-
+/* 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+POP UP PROJECTS 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+*/
 .overlay {
   position: fixed;
   top: 0;
